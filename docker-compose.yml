@@ -1,0 +1,11 @@
+version: '3'
+services:
+  rails:
+    build:
+      context: ./docker/rails
+    volumes:
+      - ./market:/var/www/market
+    tty: true
+    ports:
+      - "3000:3000"
+
