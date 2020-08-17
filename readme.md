@@ -7,7 +7,10 @@ docker exec -it market-ops_rails_1 bash
 ```
 bundle install --path vendor/bundle
 ```
-
+3.キャッシュを有効にする
+```
+rails dev:cache
+```
 
 ## サーバー起動  
 1.コンテナの中に入る  
