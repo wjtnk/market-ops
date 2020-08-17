@@ -23,13 +23,14 @@ bundle exec rails s -p 3000 -b '0.0.0.0'
 
 ```
 # 修正した設定を反映し起動 
-docker-compose up -d --build
+$ cd ~/path/to/market-ops
+$ docker-compose up -d --build
 
 # 停止
-$ cd ~/path/to/serected-ops
+$ cd ~/path/to/market-ops
 $ docker-compose stop
 
 # 削除
-$ cd ~/path/to/serected-ops
+$ cd ~/path/to/market-ops
 $ docker-compose down
 ```
