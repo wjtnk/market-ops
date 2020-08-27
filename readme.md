@@ -1,3 +1,22 @@
+## 準備
+1.このディレクトリをclone  
+```
+cd path/to/workdir
+git clone git@github.com:wjtnk/market-ops.git
+```
+
+2.アプリのディレクトリを「market-ops/market」以下にclone  
+```
+cd path/to/workdir/market-ops/market
+git clone git@github.com:wjtnk/market.git .
+```
+
+3.docker起動  
+```
+cd path/to/workdir/market-ops
+docker-compose up -d
+```
+
 ## 最初にやること
 1.コンテナの中に入る  
 ```
